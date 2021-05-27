@@ -14,7 +14,21 @@ p{
 
 footer{
     background-image: linear-gradient(to bottom left,#E11D48,#2563EB);
+    justify-content: space-between;
 }
+a{
+    text-decoration: none;
+    color: white;
+  }
+
+a:link{
+    text-decoration: none;
+    color: white;
+}
+
+  
+
+
 
 .name{
     margin: auto auto auto 1%;
@@ -52,6 +66,14 @@ footer{
     padding: 0 5.5% 0 0;
 }
 
+.navbar ul li:hover {
+    font-size: 103%;
+    font-weight: bolder;
+}
+
+
+
+
 .block{
     margin-top:6em;
 }
@@ -81,8 +103,9 @@ footer{
 }
 
 .technology{
-    background-color: #FECACA;
-    
+    background-color: #FFE4E6;
+    padding: 3.5%;
+    margin: auto;
     
 }
 
@@ -93,7 +116,8 @@ footer{
 }
 
 .projects{
-    
+    padding: 3.5%;
+    margin: auto;
 }
 
 .proj{
@@ -101,9 +125,22 @@ footer{
     margin: auto;
 }
 
+.proj a{
+    background-color: #111;
+    padding: 3% 7%;
+    margin: 15% 0;
+    border-radius: 3.5em;
+    font-size: 70%;
+}
+.proj a:hover{
+    font-weight: bold;
+}
+
 
 .education{
-    background-color: #BFDBFE;
+    background-color: #DBEAFE;
+    padding: 3.5%;
+    margin: auto;
    
 }
 
@@ -112,5 +149,20 @@ footer{
     margin: auto;
 }
 
+.foot{
+    width: 40%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 0;
+    padding: 0.5em;
+}
+.foot a{
+    padding: 2%;
+}
+
+.foot a:hover {
+    font-size: 103%;
+    font-weight: bolder;
+  }
 
 
