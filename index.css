@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
 
+
+title{
+    font-family: 'Rubik', sans-serif;
+}
 body{
    margin: 0 auto;
    font-family: 'Rubik', sans-serif;
@@ -38,7 +42,47 @@ body{
 }
 
 .navbar ul li{
-   
     padding: 0 5.5% 0 0;
+}
+
+.block{
+    margin-top:6em;
+}
+
+.pic {
+    width: 100%;
+    height: auto;
+  }
+
+.technology{
+    background-color: #FECACA;
+    text-align: center;
     
 }
+
+.tech{
+    /* text-align: center; */
+    width: 50%;
+    margin: auto;
+}
+
+.projects{
+    text-align: center;
+}
+
+.proj{
+    width: 50%;
+    margin: auto;
+}
+
+
+.education{
+    background-color: #BFDBFE;
+    text-align: center;
+}
+
+.edu{
+    width: 50%;
+    margin: auto;
+}
+
