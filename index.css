@@ -15,6 +15,7 @@ p{
 footer{
     background-image: linear-gradient(to bottom left,#E11D48,#2563EB);
     justify-content: space-between;
+    
 }
 a{
     text-decoration: none;
@@ -165,4 +166,18 @@ a:link{
     font-weight: bolder;
   }
 
+ .blk a{
+     border-radius: 3em;
+    background-image: linear-gradient(to bottom left,#E11D48,#2563EB);
+    padding: 0.7% 0.8%;
+    margin: 0.5%;
+}
 
+.blk a:hover{
+    font-weight: bolder;
+}
+
+.blk{
+    margin: auto;
+    width: 40%;
+}
