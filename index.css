@@ -180,4 +180,15 @@ a:link{
 .blk{
     margin: auto;
     width: 40%;
+    padding: 2em 0;
+}
+
+.rose{
+    background-color: #FFE4E6;
+
+}
+
+.blue{
+    background-color: #DBEAFE;
+    
 }
