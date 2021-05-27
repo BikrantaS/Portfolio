@@ -8,6 +8,13 @@ body{
    margin: 0 auto;
    font-family: 'Rubik', sans-serif;
 }
+p{
+    font-size: 1.5em;
+}
+
+footer{
+    background-image: linear-gradient(to bottom left,#E11D48,#2563EB);
+}
 
 .name{
     margin: auto auto auto 1%;
@@ -23,7 +30,7 @@ body{
     padding: 0.8em;
     height:5em;
     z-index: 1;
-    background-image: linear-gradient(to bottom left,rgb(255, 0, 106),#00f);
+    background-image: linear-gradient(to bottom left,#E11D48,#2563EB);
     display: flex;
 }
 .navbar{
@@ -52,37 +59,58 @@ body{
 .pic {
     width: 100%;
     height: auto;
+    position: relative;
+  text-align: center;
+  color: white;
   }
+
+ .nam{
+    color: #FFE4E6;
+    text-shadow: 2px 2px 8px #2563EB;
+ } 
+
+.description{
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #DBEAFE;
+  font-size: 2em;
+  padding: 4%;
+  text-shadow: 2px 2px 8px #E11D48;
+}
 
 .technology{
     background-color: #FECACA;
-    text-align: center;
+    
     
 }
 
 .tech{
     /* text-align: center; */
-    width: 50%;
+    width: 40%;
     margin: auto;
 }
 
 .projects{
-    text-align: center;
+    
 }
 
 .proj{
-    width: 50%;
+    width: 40%;
     margin: auto;
 }
 
 
 .education{
     background-color: #BFDBFE;
-    text-align: center;
+   
 }
 
 .edu{
-    width: 50%;
+    width: 40%;
     margin: auto;
 }
+
+
 
